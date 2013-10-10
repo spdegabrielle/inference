@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; truth-maintenance.ss
 ;;; Copyright (c) 2010 M. Douglas Williams
