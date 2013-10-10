@@ -1,3 +1,4 @@
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; inference.ss
 ;;; Copyright (c) 2006-2010 M. Douglas Williams
@@ -59,8 +60,6 @@
 ;;; 14) Clean up trace
 ;;;     Done MDW 7/19/06
 
-(module inference mzscheme
-  
   (require "private/inference-environments.ss")
   (require "private/rulesets.ss")
   (require "private/inference-control.ss")
@@ -73,4 +72,3 @@
            (all-from "private/assertions.ss")
            (all-from "private/utilities.ss"))
  
-  )
