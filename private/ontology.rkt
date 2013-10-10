@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; ontology.ss
 ;;; Copyright (c) 2009-2010 M. Douglas Williams
