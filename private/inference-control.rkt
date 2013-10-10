@@ -1,6 +1,6 @@
 #lang racket
 ;;; PLT Scheme Inference Collection
-;;; inference-control.ss
+;;; inference-control.rkt
 ;;; Copyright (c) 2006-2008 M. Douglas Williams
 ;;;
 ;;; This library is free software; you can redistribute it and/or 
@@ -59,16 +59,16 @@
 ;;; 2.0.5   03/21/10  Added assertion hooks. (Doug Williams)
 ;;; 2.0.6   06/18/10  Added query*. (MDW)
 
-(require "ontology.ss")
-(require "inference-environments.ss")
-(require "bindings.ss")
-(require "patterns.ss")
-(require "facts.ss")
-(require "rulesets.ss")
-(require "matches.ss")
-(require "assertions.ss")
-(require "counts.ss")
-(require "truth-maintenance.ss")
+(require "ontology.rkt")
+(require "inference-environments.rkt")
+(require "bindings.rkt")
+(require "patterns.rkt")
+(require "facts.rkt")
+(require "rulesets.rkt")
+(require "matches.rkt")
+(require "assertions.rkt")
+(require "counts.rkt")
+(require "truth-maintenance.rkt")
 (require scheme/mpair)
 (require (only-in srfi/1 delete! append! list-copy))
 
