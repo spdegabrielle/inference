@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; rulesets.ss
 ;;; Copyright (c) 2006-2010 M. Douglas Williams
@@ -24,8 +24,8 @@
 ;;;                    (Doug Williams)
 ;;; 2.0.0    06/26/08  Changes for V4.0.  (Doug Williams)
 
-(require "patterns.ss")
-(require "argument-lists.ss")
+(require "patterns.rkt")
+(require "argument-lists.rkt")
 
 ;;; Ruleset and Rule Definition
 
