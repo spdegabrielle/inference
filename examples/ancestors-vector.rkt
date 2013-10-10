@@ -1,6 +1,6 @@
 #lang scheme/base
 ;;; PLT Scheme Inference Collection
-;;; ancestors-vector.ss
+;;; ancestors-vector.rkt
 ;;;
 ;;; Ancestors is a trivial knowledge-based system that determines
 ;;; a given person's ancestors based on asserted parent relationships.
