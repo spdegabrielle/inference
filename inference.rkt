@@ -60,15 +60,15 @@
 ;;; 14) Clean up trace
 ;;;     Done MDW 7/19/06
 
-  (require "private/inference-environments.ss")
-  (require "private/rulesets.ss")
-  (require "private/inference-control.ss")
-  (require "private/assertions.ss")
-  (require "private/utilities.ss")
+  (require "private/inference-environments.rkt")
+  (require "private/rulesets.rkt")
+  (require "private/inference-control.rkt")
+  (require "private/assertions.rkt")
+  (require "private/utilities.rkt")
   
-  (provide (all-from "private/inference-environments.ss")
-           (all-from "private/rulesets.ss")
-           (all-from "private/inference-control.ss")
-           (all-from "private/assertions.ss")
-           (all-from "private/utilities.ss"))
+  (provide (all-from-out "private/inference-environments.rkt")
+           (all-from-out "private/rulesets.rkt")
+           (all-from-out "private/inference-control.rkt")
+           (all-from-out "private/assertions.rkt")
+           (all-from-out "private/utilities.rkt"))
  
