@@ -1,0 +1,45 @@
+PLT Scheme Inference Collection
+Version 2.0 (December, 2008)
+
+  The PLT Scheme Inference Collection implements an inference engine that
+supports both forward chaining (data-driven) and backward chaining (goal-
+driven) for developing rule-based systems in PLT Scheme.  The inference
+engine:
+
+   * Provides an efficient rule-based inference engine
+   * Supports both forward chaining (data-driven) and backward chaining
+     (goal-driven) inference.
+
+The source code is distributed with the inference collection and is
+licensed under the GNU Lesser General Public License (LGPL).
+
+  The motivation behind the PLT Scheme Inference Collection is to provide the
+inference engine for developing knowledge-based simulations in PLT Scheme.  It
+is based on work originally done in Symbolics Common Lisp.  This is not as much
+a port of the earlier work as a complete re-engineering of the system into PLT
+Scheme.  In particular, it implements a complete rule network with pattern
+matching for lists (variable sized), association lists (keys), vector (fixed
+size), and structures.  It also supports existential matching with no (notany),
+any, notall, and all pattern modifiers.
+
+  The PLT Scheme Inference Collection provides the following functionality for
+building and executing inferencing systems:
+
+   * Inference Environments
+   * Inference Control
+   * Rule Sets
+   * Rules
+   * Assertions
+   * Pattern Matching
+     - Lists
+     - Association Lists
+     - Vectors
+     - Structures
+   * Conflict Resolution
+     - Rule order
+     - Depth First
+     - Breadth First
+     - Simplicity
+     - Complexity
+
+For more information, contact m.douglas.williams@gmail.com.
