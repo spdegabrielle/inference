@@ -1,6 +1,6 @@
 #lang racket
 ;;; PLT Scheme Inference Collection
-;;; argument-lists.ss
+;;; argument-lists.rkt
 ;;; Copyright (c) 2006-2010 M. Douglas Williams
 ;;;
 ;;; This library is free software; you can redistribute it and/or 
