@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; utilities.ss
 ;;; Copyright (c) 2010, M. Douglas Williams
@@ -23,8 +23,8 @@
 ;;; collection itself.
 
 (require scheme/mpair
-         "assertions.ss"
-         "inference-control.ss")
+         "assertions.rkt"
+         "inference-control.rkt")
 
 ;;; (query? pattern) -> boolean?
 ;;;   pattern : pattern?
