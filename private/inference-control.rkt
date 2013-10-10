@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; inference-control.ss
 ;;; Copyright (c) 2006-2008 M. Douglas Williams
