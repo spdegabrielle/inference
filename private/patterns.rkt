@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; patterns.ss
 ;;; Copyright (c) 2006-2010 M. Douglas Williams
@@ -22,8 +22,8 @@
 ;;; 1.0.1    07/17/06  Added association list matching.
 ;;; 2.0.0    06/26/08  Changes for V4.0.  (Doug Williams)
 
-(require "bindings.ss"
-         "facts.ss")
+(require "bindings.rkt"
+         "facts.rkt")
 
 ;;; -----------------------------------------------------------------------------
 ;;;                           Wildcard and Variables
