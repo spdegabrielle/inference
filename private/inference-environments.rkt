@@ -1,6 +1,6 @@
 #lang racket
 ;;; PLT Scheme Inference Collection
-;;; inference.ss
+;;; inference-environments.rkt
 ;;; Copyright (c) 2006-2010 M. Douglas Williams
 ;;;
 ;;; This library is free software; you can redistribute it and/or 
@@ -32,7 +32,7 @@
 ;;; To do:
 ;;; 1) Replace simple list form of agenda with a double linked form.
 
-(require "ontology.ss")
+(require "ontology.rkt")
 
 ;;; inverence-environment: struct
 ;;;   0 data-index         hasheq?
