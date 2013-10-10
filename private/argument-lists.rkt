@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket
 ;;; PLT Scheme Inference Collection
 ;;; argument-lists.ss
 ;;; Copyright (c) 2006-2010 M. Douglas Williams
