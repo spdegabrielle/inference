@@ -1,6 +1,6 @@
 #lang racket
 ;;; PLT Scheme Inference Collection
-;;; matches.ss
+;;; matches.rkt
 ;;; Copyright (c) 2006-2010 M. Douglas Williams
 ;;;
 ;;; This library is free software; you can redistribute it and/or 
@@ -28,8 +28,8 @@
 ;;; Version  Date      Description
 ;;; 2.0.1    07/02/08  Updated header.  (Doug Williams)
 
-(require "bindings.ss")
-(require "assertions.ss")
+(require "bindings.rkt")
+(require "assertions.rkt")
 
 ;;; match?: any -> boolean
 (define (match? x)
