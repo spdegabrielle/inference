@@ -10,5 +10,4 @@
 (define categories '(scientific))
 (define scribblings '(("scribblings/inference.scrbl" (multi-page))))
 (define primary-file "inference.ss")
-(define repositories
-  (list "4.x"))
+(define repositories (list "4.x"))
