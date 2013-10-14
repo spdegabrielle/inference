@@ -1,4 +1,4 @@
-#lang setup/infotab
+#lang info
 (define name "Inference")
 (define blurb
   (list "Implements a rule-based inference engine that supports both "
